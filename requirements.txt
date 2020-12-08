@@ -1,0 +1,7 @@
+python_nmap==0.6.1
+shodan==1.24.0
+lxml==4.6.1
+requests==2.9.1
+beautifulsoup4==4.9.3
+nmap==0.0.1
+Pillow==8.0.1
