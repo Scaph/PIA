@@ -136,9 +136,6 @@ if __name__ == "__main__":
                 exit()
             Funciones.API(params.APIkey, params.search)
         if params.modo == "hash":
-            if not params.rhash:
-                print("Ingrese la ruta para obtener Hash, vuelva a intentar")
-                exit()
             Funciones.PowerShell(params.rhash)
     except Exception as e:
         print(e)
